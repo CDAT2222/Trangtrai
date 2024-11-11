@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem Bài Viết PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pdf-viewer {
+            width: 80%;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin: 0 auto;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Xem Bài Viết PDF</h1>
+    
+    <iframe class="pdf-viewer" src="https://github.com/CDAT2222/Trangtrai/raw/main/Sản xuất quy mô trang trại.pdf" frameborder="0"></iframe>
+    
+    <br>
+    <button class="button" onclick="window.open('https://github.com/CDAT2222/Trangtrai/raw/main/Sản xuất quy mô trang trại.pdf', '_blank')">Tải PDF</button>
+
+</body>
+</html>
